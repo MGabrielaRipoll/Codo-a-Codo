@@ -1,0 +1,10 @@
+body{
+    width: 95%;
+    background-color: black;
+    margin: 3%;
+}
+label{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
