@@ -1,10 +1,42 @@
 body{
     width: 95%;
+    background-image:url(./IMAGENES/fondomarmol.jpg);
     background-color: black;
     margin: 3%;
 }
 label{
     font-size: 15px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
+.form-control, .form-select{
+    background-color: gray;
+}
+
+.titulosFooter{
+    color: black;
+    font-weight: bold;
+}
+.redes_footer{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logos{
+    width:100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 7px;
+    border-color: black;
+}
+.btb{
+    text-align: center;
+}
+.ws_logo{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 500px;
+    left: 1100px;
+} 
